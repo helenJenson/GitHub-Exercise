@@ -18,6 +18,8 @@ struct ContentView: View {
                 .font(.title)
             Text("V3.0")
                 .padding()
+            Rectangle()
+            
                
 
         }
