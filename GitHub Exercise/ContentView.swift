@@ -10,22 +10,23 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "2.circle")
+            Image(systemName: "3.circle")
                 .resizable()
                 .scaledToFit()
    
             Text("Hello, world")
                 .font(.title)
-            Text("V2.0")
+            Text("V3.0")
                 .padding()
                
 
         }
         .padding()
-        .foregroundStyle(.green)
+        .foregroundStyle(.blue)
     }
 }
 
 #Preview {
     ContentView()
 }
+ 
